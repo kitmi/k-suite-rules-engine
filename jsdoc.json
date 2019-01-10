@@ -3,8 +3,11 @@
 		"allowUnknownTags" : true
 	},
 	"plugins"   : ["plugins/markdown"],
+	"source": {
+        "excludePattern": "(^|\\/|\\\\)__"
+    },
 	"templates" : {
-		"systemName"            : "@k-suite/cli-app",
+		"systemName"            : "@k-suite/rules-engine",
 		"footer"                : "",
 		"copyright"             : "Copyright (c) 2013-2018 KIT Mobile Internet Pty Ltd",
 		"includeDate"           : false,
