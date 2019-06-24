@@ -33,6 +33,10 @@
       "test"
     ]
   },
+  "peerDependencies": {
+    "@k-suite/algorithms": "^0.1.0",
+    "rk-utils": "^2.2.4"
+  },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
@@ -40,29 +44,23 @@
     "@babel/plugin-proposal-decorators": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
     "@babel/register": "^7.0.0",
+    "@k-suite/algorithms": "^0.1.0",
     "babel-plugin-contract": "^1.3.0",
     "babel-plugin-source-map-support": "^2.0.1",
     "capture-console": "^1.0.1",
     "del-cli": "^1.1.0",
     "ink-docstrap": "^1.3.2",
-    "jsdoc": "^3.5.5",
+    "jsdoc": "^3.6.2",
     "luxon": "^1.4.3",
     "minimist": "^1.2.0",
     "mocha": "^5.2.0",
     "nyc": "^13.0.1",
+    "rk-utils": "^2.2.4",
     "shelljs": "^0.8.2",
     "should": "^13.2.3",
     "source-map-support": "^0.5.9",
-    "supertest": "^3.3.0",
-    "winston-daily-rotate-file": "^3.3.3",
-    "winston-mongodb": "github:kitmi/winston-mongodb"
+    "supertest": "^3.3.0"
   },
-  "dependencies": {
-    "@k-suite/algorithms": "^0.1.0",
-    "rk-config": "^2.0.0",
-    "rk-utils": "^2.2.2",
-    "winston": "^3.1.0",
-    "winstonflight": "^1.0.4"
-  },
+  "dependencies": {},
   "gitHead": "699ff81c93d2966f9a86c251d832151c4a450e81"
 }
